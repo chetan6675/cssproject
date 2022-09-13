@@ -4,21 +4,21 @@
    }
    
    body{
-       background-color: rgb(131, 242, 242);
+       background-color:#FFDEAD ;
        height: 1000px;
    }
    
    .head{
        width: auto;
        height: 100px;
-       background-color: rgb(239, 240, 236);
+       background-color:  #8B4513;
        box-shadow: 0px 2px 10px grey;
    }
    
    .a{
        text-align: center;
        padding-top: 30px;
-       color: cadetblue;
+       color: lemonchiffon;
    }
    
    /* add button */
@@ -53,11 +53,11 @@
        margin-top: 50px;
        margin-left: 300px;
        border-radius: 10%;
-       background: rgb(255, 241, 241);
+       background: #8B4513;
    }
    
    .text{
-       color: #E74C3C;
+       color: #8B4513;
        font-size: 20px;
        margin-left: 40px;
        margin-top: 10px;
@@ -96,7 +96,7 @@
        height: 240px;
        margin-top: 50px;
        margin-left: 90px;
-       background: rgb(255, 241, 241);
+       background: #8B4513;
    }
    
    .b2{
@@ -104,7 +104,7 @@
        border-radius: 10%;
        width: 200px;
        height: 240px;
-       background-color: rgb(255, 241, 241);
+       background-color: rgb(64, 44, 44);
        position: relative;
        top: 350px;
        right: 790px;
@@ -121,7 +121,7 @@
        position: relative;
        bottom: 450px;
        box-shadow: 8px 4px rgb(152, 97, 97);
-       background-color: white;
+       background-color:white;
    }
    
    .back{
@@ -135,7 +135,7 @@
        position: absolute;
        font-size: 30px;
        left: 180px;
-       color: #E74C3C;
+       color: #66d4f5;
    }
    
    input{
@@ -150,8 +150,8 @@
        height: 30px;
        border-radius: 40%;
        color: white;
-       background-color: rgb(249, 42, 5);
-       box-shadow: 5px 5px rgb(113, 153, 183);
+       background-color: rgb(15, 15, 15);
+       box-shadow: 5px 5px rgb(53, 60, 65);
        position: absolute;
        bottom: 30px;
        right: 200px;
