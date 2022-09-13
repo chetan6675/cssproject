@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(131, 242, 242);
+    background-color: #ffdead;
 }
 
 .head{
     width: autopx;
     height: 100px;
-    background-color: rgb(239, 240, 236);
+    background-color: #8B4513;
     box-shadow: 0px 2px 10px grey;
 
 }
@@ -13,14 +13,16 @@ body{
 .a{
     text-align: center;
     padding-top: 30px;
-    color: cadetblue;
+    color: LemonChiffon;
 }
 
 /* add button */
 
 .add{
- margin-top: 30px;
+ margin-top: 50px;
  margin-left: 100px;
+ position: sticky;
+ 
 }
 
 #img{
@@ -29,8 +31,8 @@ body{
 }
 
 #list{
-    position: relative;
-    left: 710px;
+    position: absolute;
+    left: 610px;
     bottom: 15px;
     font-size: 25px;
 }
@@ -49,9 +51,10 @@ body{
     height: 240px;
     border: 2px #161616 solid;
     margin-top: 50px;
-    margin-left: 300px;
-    border-radius: 10%;
+    margin-left: 190px;
+    border-radius: 8%;
     background: rgb(255, 241, 241);
+    box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
 }
 
 .text{
@@ -69,20 +72,27 @@ body{
     margin-left: 40px;
     text-decoration: line-through;
     font-size: 18px;
-    color: red;
+    color: rgb(11, 8, 8);
     font-weight: lighter
+}
+.striked{
+    position: relative;
+    top: 2px;
+    text-align: left;
+    opacity: 0.5;
 }
 
 .pt{
     margin-left: 20px;
     margin-top: 15px;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 .PT{
     position: relative;
     top: 2px;
-    text-align: center;
+    text-align: left;
     color: black;
 }
 
@@ -90,21 +100,25 @@ body{
 
 .b1{
     border: 2px solid black;
-    border-radius: 10%;
+    border-radius: 8%;
     width: 200px;
     height: 240px;
     margin-top: 50px;
     margin-left: 90px;
     background: rgb(255, 241, 241);
+    right:10px;
+    left:auto;
+    box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+
 }
 
 .b2{
     border: 2px solid black;
-    border-radius: 10%;
+    border-radius: 8%;
     width: 200px;
     height: 240px;
     background-color: rgb(255, 241, 241);
-    position: relative;
-    top: 350px;
-    right: 790px;
+    margin-top: 50px;
+    margin-left: 90px;
+    box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
 }
