@@ -1,18 +1,18 @@
 body{
-    background-color: rgb(131, 242, 242);
+    background-image: url(https://wallpaperaccess.com/full/3214847.jpg);
 }
 
 .head{
     width: auto;
     height: 100px;
-    background-color: rgb(239, 240, 236);
+    background-color:skyblue;
     box-shadow: 0px 2px 10px grey;
 }
 
 .a{
     text-align: center;
     padding-top: 30px;
-    color: cadetblue;
+    color: LemonChiffon;
 }
 
 
@@ -32,31 +32,33 @@ body{
 /* box Section */
 
 .b1{
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 5%;
     position:relative;
     width: 400px;
     height: 300px;
     margin-left: 450px;
     margin-top: 50px;
-    box-shadow: 10px 10px grey;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color:white ;
 }
 
 #text{
     margin-left: 70px;
     left: 70px;
     font-size: 30px;
-    color: red;
+    color:rgb(99, 197, 216);
     border-bottom: 1px gray solid;
     line-height: 80px;
 }
 
 #striked{
-    color: red;
+    color:black;
     text-decoration: line-through;
     margin-left: 100px;
     margin-top: 30px;
     font-size: 20px;
+    opacity: 0.5;
 }
 
 .check{
