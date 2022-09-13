@@ -5,13 +5,13 @@
 }
 
 body{
-    background-color: rgb(131, 242, 242);
+     background-image: url(https://wallpaperaccess.com/full/3214847.jpg);
 }
 
 .head{
     width: auto;
     height: 100px;
-    background-color: rgb(239, 240, 236);
+    background-color:#87CEFA ;
     box-shadow: 0px 2px 10px grey;
 }
 
@@ -83,15 +83,15 @@ body{
 }
 
 .sec2{
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.681);
     border-radius: 10px;
     height: 200px;
     width: 400px;
     position: relative;
     bottom: 300px;
     left: 500px;
-    background: white;
-    box-shadow: 5px 7px solid rgb(114, 97, 97);
+    background:#B0E0E6;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .back1{
@@ -107,7 +107,7 @@ body{
     left: 140px;
    bottom: 150px;
    font-size: 30px;
-   color: rgb(132, 229, 229);
+   color: rgb(68, 67, 66);
 }
 
 input{
@@ -123,8 +123,8 @@ button{
     height: 30px;
     border-radius: 40%;
     color: white;
-    background-color: rgb(249, 42, 5);
-    box-shadow: 5px 5px rgb(113, 153, 183);
+    background-color: black;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     position: absolute;
     bottom: 30px;
     right: 150px;
